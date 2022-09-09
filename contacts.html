@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Kapcsolatok</title>
+</head>
+<body>
+    <header>
+        <div class="kep">
+            <img id="avatar" src="/img/avatar.png" alt="">
+        </div>
+        <div class="szoveg">
+            <h1>Kerék Ádám</h1>
+            <h2>Szoftverfejlesztő és tesztelő</h2>
+        </div>
+    </header>
+    <main>
+        <hr>
+        <h2 id="cap">A Türr István Technikum büszke diákja</h2>
+        <hr>
+        <ul class="navbarul">
+            <li class="navbarli"><a class="active" href="/">Főoldal</a></li>
+            <li class="navbarli"><a href="/hobbies">Hobbik</a></li>
+            <li class="navbarli"><a href="/contacts">Kapcsolat</a></li>
+            <li class="navbarli"><a href="/sources">Források</a></li>
+          </ul>
+
+          <p>Elérhetőségeim:</p>
+          <ul>
+              <li>Telefonszám:&nbsp&nbsp&nbsp06 20 123 45 67</li>
+              <li>E-mail: &nbsp&nbspkerekadam05@gmail.com</li>
+              <li>Hely: &nbsp&nbsp6000 Baja Bácska tér 1.    </li>
+              <img id="turr" src="/img/turr.jpg" alt="">
+          </ul>
+          <form action="/message" method="post">
+            <div class="form-group">
+                <label for="formGroupExampleInput">Név: </label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Saját név">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email cím:</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Írd be az email címed">
+                <small id="emailHelp" class="form-text text-muted">Az email címed nem osztjuk meg senkivel.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Üzenet</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Beküldés</button>
+
+          </form>
+          
+    </main>
+
+
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

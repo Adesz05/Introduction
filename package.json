@@ -1,0 +1,30 @@
+{
+  "name": "bemutatkozas",
+  "version": "1.0.0",
+  "description": "bemutatkozo oldalak",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adesz05/Introduction.git"
+  },
+  "keywords": [
+    "introduction"
+  ],
+  "author": "Kerék Ádám",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adesz05/Introduction/issues"
+  },
+  "homepage": "https://github.com/Adesz05/Introduction#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
